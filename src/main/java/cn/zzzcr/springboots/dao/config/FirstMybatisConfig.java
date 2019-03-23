@@ -15,7 +15,6 @@ import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 import javax.sql.DataSource;
 
 
-@Data
 @ConfigurationProperties(prefix = "first.datasource")
 @MapperScan(basePackages = "cn.zzzcr.springboots.dao.mapper.first", sqlSessionFactoryRef = "firstSqlSessionFactory")
 @Configuration
